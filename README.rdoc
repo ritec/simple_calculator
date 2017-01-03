@@ -3,7 +3,7 @@
 The following Rails app is a simple calculator
 The calculator implements the following operators: +, -, /,* on any number of integer arguments.
 * There are controller tests
-* I could have used the eval method but decided to use the String calculate method from [Theo Dorton](https://github.com/theodorton/ruby-string-calculate) as it is safer. I did however still add a method to check for valid input in the text box.
+* I could have used the eval method but decided to use the String calculate method from Theo Dorton https://github.com/theodorton/ruby-string-calculate as it is safer. I did however still add a method to check for valid input in the text box.
 
 Thanks!
 Ri Caragol
