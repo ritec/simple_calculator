@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The following Rails app is a simple calculator
+The calculator implements the following operators: +, -, /,* on any number of integer arguments.
+* There are controller tests
+* I could have used the `eval` method but decided to use the String calculate method from [Theo Dorton](https://github.com/theodorton/ruby-string-calculate) as it is safer. I did however still add a method to check for valid input in the text box.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Thanks!
+Ri Caragol
