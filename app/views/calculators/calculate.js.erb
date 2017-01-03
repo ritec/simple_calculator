@@ -1,0 +1,6 @@
+<%- if flash[:error].present? %>
+  $('#result').text("<%= flash[:error] %>")
+<%- else %>
+  $('#result').text("Equation: <%= @equation %>")
+  $('#result').append("</br> Solution: <%= @solution %>")
+<%- end %>

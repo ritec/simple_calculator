@@ -1,0 +1,11 @@
+%h3= "Simple Calculator"
+%h4="You can use the following operators: +, -, / and *."
+
+= form_for :calculators, url: calculate_calculators_path, remote: true do |calculator_form|
+  %div
+    = calculator_form.label "Equation"
+    = calculator_form.text_field :value
+  = calculator_form.submit "Calculate"
+
+%div
+  #result
